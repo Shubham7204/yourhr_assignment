@@ -68,84 +68,45 @@ Backend:
 - Cloudinary
 - Multer
 
-## Setup and Installation
-
-markdown
-
-Copy code
-
 `### Frontend Setup
 
-1\. Clone the repository:
+1. **Clone the repository:**
 
-   ```bash
+   git clone https://github.com/Shubham7204/yourhr_assignment.git `
 
-   git clone https://github.com/Shubham7204/yourhr_assignment.git `
+1.  **Navigate to the project directory:**
 
-1\.  Navigate to the project directory:
+    `cd yourhr_assignment`
 
-    bash
+2.  **Install dependencies:**
 
-    Copy code
+    `npm install`
 
-    `cd yourhr_assignment`
+3.  **Start the development server:**
 
-2\.  Install dependencies:
+    `npm run dev`
 
-    bash
-
-    Copy code
-
-    `npm install`
-
-3\.  Start the development server:
-
-    bash
-
-    Copy code
-
-    `npm run dev`
-
-4\.  Open <http://localhost:5173> in your browser
+4.  **Open <http://localhost:5173> in your browser**
 
 ### Backend Setup
 
-1\.  Navigate to the backend directory:
+1.  **Navigate to the backend directory:**
 
-    bash
+    `cd backend`
 
-    Copy code
+2.  **Install dependencies:**
 
-    `cd backend`
+    `npm install`
 
-2\.  Install dependencies:
+3.  **Create a `.env` file with the following content:**
 
-    bash
+    `MONGODB_URI=your_mongodb_connection_string
+    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret`
 
-    Copy code
+4.  **Start the server:**
 
-    `npm install`
+    `npm start`
 
-3\.  Create a `.env` file with the following content:
-
-    env
-
-    Copy code
-
-    `MONGODB_URI=your_mongodb_connection_string
-
-    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-
-    CLOUDINARY_API_KEY=your_cloudinary_api_key
-
-    CLOUDINARY_API_SECRET=your_cloudinary_api_secret`
-
-4\.  Start the server:
-
-    bash
-
-    Copy code
-
-    `npm start`
-
-5\.  The server will run on <http://localhost:3000>
+5.  **The server will run on <http://localhost:3000>**
