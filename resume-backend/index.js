@@ -10,7 +10,7 @@ const app = express();
 app.use(express.json());
 
 app.use(cors({
-  origin: 'https://yourhr-assignments.vercel.app/',
+  origin: 'https://yourhr-assignments.vercel.app',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
 }));
