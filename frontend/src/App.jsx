@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import LandingPage from './components/landingpage';
+import LandingPage from './components/LandingPage';
 import UploadResumePage from './components/UploadResumePage';
 import JobListings from './components/JobListing';
 import UserList from './components/UsersList';
