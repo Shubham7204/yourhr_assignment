@@ -19,7 +19,7 @@ const UploadResumePage = () => {
     formData.append('resume', data.resume[0]);
 
     try {
-      const response = await fetch('http://localhost:3000/users/upload', {
+      const response = await fetch('https://yourhr-assignment.vercel.app/users/upload', {
         method: 'POST',
         body: formData,
       });

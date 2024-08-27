@@ -10,7 +10,7 @@ const UserList = () => {
   useEffect(() => {
     const fetchResumes = async () => {
       try {
-        const response = await axios.get('http://localhost:3000/users');
+        const response = await axios.get('https://yourhr-assignment.vercel.app/users');
         setResumes(response.data);
         setLoading(false);
       } catch (err) {
