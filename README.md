@@ -70,50 +70,82 @@ Backend:
 
 ## Setup and Installation
 
-### Frontend Setup
+markdown
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Shubham7204/yourhr_assignment.git
+Copy code
 
-Navigate to the project directory:
-bashCopycd yourhr_assignment
+`### Frontend Setup
 
-Install dependencies:
-bashCopynpm install
+1\. Clone the repository:
 
-Start the development server:
-bashCopynpm run dev
+   ```bash
 
-Open http://localhost:5173 in your browser
+   git clone https://github.com/Shubham7204/yourhr_assignment.git `
 
-Backend Setup
+1\.  Navigate to the project directory:
 
-Navigate to the backend directory:
-bashCopycd backend
+    bash
 
-Install dependencies:
-bashCopynpm install
+    Copy code
 
-Create a .env file with the following:
-CopyMONGODB_URI=your_mongodb_connection_string
-CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
-CLOUDINARY_API_KEY=your_cloudinary_api_key
-CLOUDINARY_API_SECRET=your_cloudinary_api_secret
+    `cd yourhr_assignment`
 
-Start the server:
-bashCopynpm start
+2\.  Install dependencies:
 
+    bash
 
-The server will run on http://localhost:3000
-API Endpoints
+    Copy code
 
-POST /users/upload: Upload a new resume
-GET /users: Retrieve all uploaded resumes
+    `npm install`
 
-Deployment
+3\.  Start the development server:
 
-Frontend: Vercel
-Backend: Render
-Database: MongoDB Atlas
+    bash
 
+    Copy code
+
+    `npm run dev`
+
+4\.  Open <http://localhost:5173> in your browser
+
+### Backend Setup
+
+1\.  Navigate to the backend directory:
+
+    bash
+
+    Copy code
+
+    `cd backend`
+
+2\.  Install dependencies:
+
+    bash
+
+    Copy code
+
+    `npm install`
+
+3\.  Create a `.env` file with the following content:
+
+    env
+
+    Copy code
+
+    `MONGODB_URI=your_mongodb_connection_string
+
+    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
+
+    CLOUDINARY_API_KEY=your_cloudinary_api_key
+
+    CLOUDINARY_API_SECRET=your_cloudinary_api_secret`
+
+4\.  Start the server:
+
+    bash
+
+    Copy code
+
+    `npm start`
+
+5\.  The server will run on <http://localhost:3000>
